@@ -1,0 +1,27 @@
+Dunder (magic) methods:
+Types:
+  1. init
+  2. str
+  3. len
+  4. Add
+  
+  1. init::
+This is a method you must have already used if you have worked with classes. The init method is used to create an instance of the class.The init method defined above accepts a list of names as parameters and stores it in the class’ names list. Additionally, it also populates the versions dictionary. We have also put a check on the names list.
+If the list is empty, an exception is raised. Below is how we would use the init method.The first statement would work fine but the second line would raise an exception since an empty list was passed in as a parameter.
+
+
+  2. str::
+  The str method is useful when we want to use instances of our class in a print statement. As discussed earlier, it usually returns a memory object. But we can override the str method to meet our requirements.The above str method returns the software and their versions. Ensure that the function returns a string. Below is how we would call the method.
+  
+  
+  3. len:: 
+ In a dictionary, the len method returns the number of elements in a list or the number of key-value pairs in a dictionary.The len method for our class returns the number of softwares. As you might have noticed, we are using the built-in len method of a list to return the number of software.
+  
+ 
+ 4. add:: 
+ 
+  in add you create a custom class Data and overwrite the __add__() method so that creates a new Data object with the value being the sum of the values of the two operands a and b of type Data.
+
+
+ 
+ 
