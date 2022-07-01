@@ -1,0 +1,19 @@
+*Args:
+
+in *args we are not sure about the number of arguments that can be passed to a function or no. Python has *args which allow us to pass the variable number of non keyword arguments to function,In the function, we should use an asterisk (*) before the parameter name to pass variable length arguments. it passed as a tuple and these passed arguments make tuple inside the function with same name as the parameter excluding (*).
+
+For example : we want to make a mathmatical operation (add , subtract , mul , div) or  function that takes any number of arguments and able to make the same mathmatical operation of all . It can be done using *args.
+
+Using the *, the variable that we associate with the * becomes an iterable meaning you can do things like iterate over it, run some higher-order functions such as map and filter.
+
+
+
+**kwargs:
+
+its a solution of python problem thant it passes variable length non keyword argument to function using *args but we cannot use this to pass keyword argument
+
+In the function, we use the double  ** before the parameter name to denote this type of argument. The arguments are passed as a dictionary and these arguments make a dictionary inside function with name same as the parameter excluding double **.
+
+
+
+

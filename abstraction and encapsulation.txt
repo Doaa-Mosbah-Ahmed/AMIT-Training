@@ -1,0 +1,19 @@
+What is Abstraction in Python?
+
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user. This is one of the core concepts of object-oriented programming (OOP) languages. That enables the user to implement even more complex logic on top of the provided abstraction without understanding or even thinking about all the hidden background/back-end complexity.
+
+Importance:                   
+
+         Abstraction provides a programmer to hide all the irrelevant data/process of an application in order to reduce complexity and increase the efficiency of the program. Now, we can start learning how we can achieve abstraction using the Python program.
+         
+         
+ What is Encapsulation in Python?
+
+   Encapsulation is one of the fundamental concepts in object-oriented programming (OOP), including abstraction, inheritance, and polymorphism. This lesson will cover what encapsulation is and how to implement it in Python.
+ 
+ 
+ Advantages of Encapsulation
+     1-Security.
+      2-Data Hiding. 
+       3-Simplicity. 
+        4-Aesthetics. 
